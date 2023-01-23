@@ -77,7 +77,7 @@ void loop() {
     digitalWrite(LED4,LOW);//開始幫浦運轉 15分鐘
     Blynk.virtualWrite(V0, "溪埔澆水 溪埔方向的水閥全開");
     Blynk.virtualWrite(V10, " 幫浦開始運轉", nis,"分鐘  ");
-    delay(DELAY3);
+    delay(DELA);
    digitalWrite(LED3, HIGH);//停止幫浦運轉
     digitalWrite(LED1, HIGH);//關閉溪埔水閥
     Blynk.virtualWrite(V1, 0); //關閉手機v1按鈕
